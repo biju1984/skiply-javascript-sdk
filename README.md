@@ -7,9 +7,9 @@ Use this JavaScript library to manage Skiply resources (such as cart, merchant, 
 
 Install the latest SDK using npm:
 ```sh
-$ npm install skiplyjs
+$ npm i skiply_javascript_sdk
 or
-$ yarn add skiplyjs
+$ yarn add skiply_javascript_sdk
 ```
 
 ## How do I import the client and other types from the SDK?
