@@ -1,6 +1,6 @@
 {
   "name": "skiply_javascript_sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Skiply JavaScript SDK",
   "main": "index.js",
   "scripts": {
