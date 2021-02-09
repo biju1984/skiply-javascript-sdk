@@ -13,8 +13,7 @@
     "jest": "^26.6.3",
     "request": "^2.60.0",
     "selenium-webdriver": "^2.53.2",
-    "winston": "^2.2.0",
-    "documentation":"latest"
+    "winston": "^2.2.0"
   },
   "directories": {
     "example": "examples",
