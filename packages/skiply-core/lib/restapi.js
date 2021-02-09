@@ -2,13 +2,18 @@ var api = require('api-chain');
 var request = require('request');
 var winston = require('winston');
 /**
- * @param {string} skiply the skiply oject present here
+ * Creates a popup component
+ * @class Popup
+ * @param {Object} skiply the skiply object present here
+ * @example
+ * function('http://www.google.com','some variable'){
+ *  request('http://www.google.com',{'auth': skiply.auth})
+ * }
 */
 module.exports = function(skiply){
     /**
-     * 
-     * @param {string} url string that is provided here 
-     * @param {string} cb sting cb is provied 
+     * @param {String} url string that is provided here 
+     * @param {String} cb sting cb is provied 
      */
       skiply.get = function(url, cb) {
           request(skiply.url + url, {
