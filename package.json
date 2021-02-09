@@ -1,5 +1,5 @@
 {
-  "name": "skiply_javascript_sdk",
+  "name": "root",
   "version": "1.0.2",
   "description": "Skiply JavaScript SDK",
   "main": "index.js",
@@ -8,19 +8,9 @@
   },
   "author": "Biju Joseph Tharakan",
   "license": "UNLICENSED",
-  "dependencies": {
-    "cheerio": "^0.20.0",
-    "jest": "^26.6.3",
-    "request": "^2.60.0",
-    "selenium-webdriver": "^2.53.2",
-    "winston": "^2.2.0"
+  "devDependencies": {
+    "lerna": "^3.22.1"
   },
-  "directories": {
-    "example": "examples",
-    "lib": "lib",
-    "test": "tests"
-  },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/biju1984/skiply-javascript-sdk.git"
